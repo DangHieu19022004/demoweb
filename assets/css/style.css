@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*bao gồm cả pad, cont, margin, border */
+
+}
+
+#header {
+    height: 68px;
+}
+
+#header .list{
+    display: flex;
+}
+
+#header .list .propertises img{
+    max-height: 68px;
+    max-width: 200px;
+    object-fit: cover;
+}
+
+#header .list li{
+    display: inline-block;
+}
+
+#header .list li a{
+    padding-left: 20px;
+    padding-right: 10px;
+    line-height: 68px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #282365;
+}
